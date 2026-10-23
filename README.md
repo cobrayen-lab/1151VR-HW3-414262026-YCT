@@ -9,12 +9,17 @@
     - 音檔
       [RouletteVoice.mp3](https://github.com/user-attachments/files/33881525/RouletteVoice.mp3)
   - **設定**:
+    - 建立場景
+      - 依序按 `File` -> `Save As` 來儲存場景
     - 素材位置與大小
       - Roulette
         <img width="217" height="68" alt="Roulette" src="https://github.com/user-attachments/assets/5a28bcc2-1c8f-4845-87c0-1c7572902ebe" />
       - Noodle
         <img width="220" height="69" alt="Noodle" src="https://github.com/user-attachments/assets/ce8252e9-4b03-44eb-a7d0-2276bf12ee7f" />
     - 音檔
-      在 `Roulette` 裡的 `Add Component` 中選擇 `Audio` 中的 `Audio Source` ，將音檔加入`Audio Generator` 並取消選取 `Play On Awake`
+      在 `Roulette` 中，依序按 `Add Component` -> `Audio` -> `Audio Source` ，將音檔加入`Audio Generator` 並取消選取 `Play On Awake`
   - 加入腳本
-    - 在 `Roulette` 裡的 `Add Component` 中選擇 `New script` ，取好檔名後開始撰寫腳本
+    - 在 `Roulette` 中依序按 `Add Component` -> `New script` ，取好檔名後開始撰寫腳本
+- **匯入手機**
+  - 依序按 `File` -> 'Build Profiles` ，之後，選取左上角的 `Scene List` 將儲存的場景匯入
+  - 按下 `Build` ，再將 `.apk` 檔案匯入手機
